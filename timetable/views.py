@@ -1,7 +1,14 @@
 from django.http import JsonResponse
 from django.shortcuts import render
+from rest_framework import viewsets
+from rest_framework.permissions import AllowAny, IsAuthenticated
+
+
 from .timetablegenerator import generate_timetable
-from .models import Timetable, TimetableEntry
+from .permissions import IsAdmin, IsOwnerOrReadOnly, IsSelfOrReadOnly
+from .models import ClassRoom, Department, Division, Preference, Subject, Teacher, Timetable, TimetableEntry
+from .serializers import (ClassRoomSerializer, DepartmentSerializer, DivisionSerializer, PreferenceSerializer,
+                          SubjectSerializer, TeacherSerializer, TimetableSerializer)
 
 # Create your views here.
 
@@ -26,5 +33,60 @@ def show(request, ttid, division):
         for entry in division_tt
     ]
     return JsonResponse({'data': timetable_data})
+
+
+class ClassRoomViewSet(viewsets.ModelViewSet):
+    queryset = ClassRoom.objects.all()
+    serializer_class = ClassRoomSerializer
+
+    def get_permissions(self):
+        if self.action in ["update", "destroy", "create"]:
+            return [IsAdmin()]
+        return [AllowAny()]
+
+
+class DepartmentViewSet(viewsets.ModelViewSet):
+    queryset = Department.objects.all()
+    serializer_class = DepartmentSerializer
+    def get_permissions(self):
+        if self.action in ["update", "destroy", "create"]:
+            return [IsAdmin()]
+        return [AllowAny()]
+
+class DivisionViewSet(viewsets.ModelViewSet):
+    queryset = Division.objects.all()
+    serializer_class = DivisionSerializer
+    def get_permissions(self):
+        if self.action in ["update", "destroy", "create"]:
+            return [IsAdmin()]
+        return [AllowAny()]
+
+class PreferenceViewSet(viewsets.ModelViewSet):
+    queryset = Preference.objects.all()
+    serializer_class = PreferenceSerializer
+    def get_permissions(self):
+        return [IsOwnerOrReadOnly()]
+
+class SubjectViewSet(viewsets.ModelViewSet):
+    queryset = Subject.objects.all()
+    serializer_class = SubjectSerializer
+    def get_permissions(self):
+        if self.action in ["update", "destroy", "create"]:
+            return [IsAdmin()]
+        return [AllowAny()]
+
+class TeacherViewSet(viewsets.ModelViewSet):
+    queryset = Teacher.objects.all()
+    serializer_class = TeacherSerializer
+    def get_permissions(self):
+        return [IsSelfOrReadOnly()]
+
+class TimetableViewSet(viewsets.ModelViewSet):
+    queryset = Timetable.objects.all()
+    serializer_class = TimetableSerializer
+    def get_permissions(self):
+        if self.action in ["update", "destroy", "create"]:
+            return [IsAdmin()]
+        return [AllowAny()]
 
 
