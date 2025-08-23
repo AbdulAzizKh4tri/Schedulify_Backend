@@ -1,4 +1,5 @@
 from django.db import models
+from users.models import User
 
 # Create your models here.
 TIME_SLOTS = 48
@@ -25,6 +26,7 @@ class Subject(models.Model):
         return self.name
 
 class Teacher(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="teacher_profile")
     name = models.CharField(max_length=255)
     availability = models.CharField(max_length=TIME_SLOTS, default=SHIFT_2)
     department = models.ForeignKey(Department, on_delete=models.CASCADE, related_name="teachers")
