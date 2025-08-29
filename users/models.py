@@ -22,8 +22,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     gender = models.CharField(max_length=10, choices=GENDER_CHOICES)
     phone_number = PhoneNumberField()
 
-    is_verified = models.BooleanField(default=False)
-
     role = models.CharField(max_length=15, choices=ROLE_CHOICES, default=STUDENT)
 
     # needed for django admin

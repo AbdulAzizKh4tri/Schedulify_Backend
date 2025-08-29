@@ -16,12 +16,16 @@ def get_teacher_workload(teacher, timetable_entries):
     """Calculate current workload of a teacher based on assigned slots."""
     return timetable_entries.filter(teacher=teacher).count() or 0
 
-def get_modifiable_entity_array(model_class):
+def get_modifiable_entity_array(model_class, id_list=None):
     # Get all non-relational field names from the model
     fields = [field.name for field in model_class._meta.get_fields() if not field.is_relation]
     
     # Query all entity objects and get all fields
-    queryset = model_class.objects.all().values(*fields)
+    if id_list:
+        queryset = model_class.objects.filter(id__in=id_list).values(*fields)
+    else:
+        queryset = model_class.objects.all().values(*fields)
+
     if(queryset is None):
         raise ValidationError(f"No objects for {model_class}")
     
@@ -113,7 +117,7 @@ def try_allocate(assignment_index, assignments, teachers, classrooms, divisions,
 
 
 
-def generate_timetable():
+def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
     """Generate a timetable maximizing teacher preferences and balancing workload."""
     from .models import Division, Subject, Teacher, ClassRoom, Preference, Timetable,TimetableEntry, TIME_SLOTS, MAXIMUM_WORK_LOAD
     from .utils import get_teacher_subject_division_mapping
@@ -122,12 +126,13 @@ def generate_timetable():
     Timetable.objects.all().delete()
     new_timetable = Timetable.objects.create()
 
+
+    teachers = get_modifiable_entity_array(Teacher,teacher_ids)
+    classrooms = get_modifiable_entity_array(ClassRoom, classroom_ids)
+    divisions = get_modifiable_entity_array(Division, division_ids)
+
     LP_output = get_teacher_subject_division_mapping()
     print(LP_output)
-
-    teachers = get_modifiable_entity_array(Teacher)
-    classrooms = get_modifiable_entity_array(ClassRoom)
-    divisions = get_modifiable_entity_array(Division)
 
     lectures = []
     labs = []

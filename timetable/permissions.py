@@ -5,7 +5,7 @@ SAFE_METHODS = ('GET', 'HEAD', 'OPTIONS')
 
 class IsAdmin(BasePermission):
     def has_permission(self, request, view):
-        return request.user and request.user.is_authenticated and request.user.role == get_user_model().Admin
+        return request.user and request.user.is_authenticated and request.user.role == get_user_model().ADMIN
     
 class IsOwnerOrReadOnly(BasePermission):
     def has_object_permission(self, request, view, obj):
@@ -13,6 +13,10 @@ class IsOwnerOrReadOnly(BasePermission):
 
 class IsSelfOrReadOnly(BasePermission):
     def has_object_permission(self, request, view, obj):
-        return request.user.is_authenticated and bool(request.method in SAFE_METHODS or obj.user == request.user )
+        return request.user.is_authenticated and bool(request.method in SAFE_METHODS or obj.user == request.user)
+    
+class ReadOnly(BasePermission):
+    def has_object_permission(self, request, view, obj):
+        return request.method in SAFE_METHODS
 
 
