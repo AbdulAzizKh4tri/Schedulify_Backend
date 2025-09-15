@@ -130,26 +130,24 @@ def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
     teachers = get_modifiable_entity_array(Teacher,teacher_ids)
     classrooms = get_modifiable_entity_array(ClassRoom, classroom_ids)
     divisions = get_modifiable_entity_array(Division, division_ids)
+    
+    LP_output = get_teacher_subject_division_mapping(require_preference=True)
 
-    LP_output = get_teacher_subject_division_mapping()
-    print(LP_output)
-
-    lectures = []
-    labs = []
+    assignments = []
     for assignment in LP_output['assignments']:
         for _ in range(Subject.objects.get(id=assignment[1]).lectures_per_week):
-            lectures.append(list(assignment) + [SINGLE_SLOT])
+            assignments.append(list(assignment) + [SINGLE_SLOT])
         for _ in range(Subject.objects.get(id=assignment[1]).labs_per_week):
-            labs.append(list(assignment)+[DOUBLE_SLOT])
+            assignments.append(list(assignment)+[DOUBLE_SLOT])
 
-    assignemnts = labs + lectures
-    random.shuffle(assignemnts)
+    
+    random.shuffle(assignments)
 
-    allocations = try_allocate(0, assignemnts, teachers, classrooms, divisions, [])
+    allocations = try_allocate(0, assignments, teachers, classrooms, divisions, [])
 
     if allocations is None:
         print("No full timetable possible")
-        return
+        return None
 
 
     timetable_entries = [

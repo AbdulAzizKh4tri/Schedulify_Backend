@@ -1,0 +1,572 @@
+[
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "admin@gmail.com",
+            "full_name": "admin",
+            "gender": "Male",
+            "phone_number": "+919316234654",
+            "role": "Admin",
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "date_joined": "2025-08-28T05:40:25.239Z",
+            "last_login": "2025-09-12T16:02:52.178Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "vikash@example.com",
+            "full_name": "Vikash",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:29:34.578Z",
+            "last_login": "2025-08-29T10:29:34.579Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "chandra@example.com",
+            "full_name": "Chandrashekhar",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:31:12.304Z",
+            "last_login": "2025-08-29T10:31:12.304Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "yash@example.com",
+            "full_name": "Yash",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:32:03.199Z",
+            "last_login": "2025-08-29T10:32:03.199Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "bhumika@example.com",
+            "full_name": "Bhumika",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:32:45.463Z",
+            "last_login": "2025-08-29T10:32:45.463Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "akruti@example.com",
+            "full_name": "Akruti",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:33:33.504Z",
+            "last_login": "2025-08-29T10:33:33.504Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "raj@example.com",
+            "full_name": "Raj",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:34:02.050Z",
+            "last_login": "2025-08-29T10:34:02.050Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "kanni@example.com",
+            "full_name": "E Kanniyappan",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:34:42.351Z",
+            "last_login": "2025-08-29T10:34:42.351Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "trainer1@example.com",
+            "full_name": "Trainer 1",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:47:44.027Z",
+            "last_login": "2025-08-29T13:26:45.446Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "trainer2@example.com",
+            "full_name": "Trainer 2",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:48:21.687Z",
+            "last_login": "2025-08-29T10:48:21.687Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 11,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "richa@example.com",
+            "full_name": "Richa",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T10:59:56.607Z",
+            "last_login": "2025-08-29T10:59:56.607Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 12,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "priya@example.com",
+            "full_name": "Priya Sharma",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:00:00.000Z",
+            "last_login": "2025-08-29T11:00:00.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 13,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "arjun@example.com",
+            "full_name": "Arjun Patel",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:00:10.000Z",
+            "last_login": "2025-08-29T11:00:10.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 14,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "neha@example.com",
+            "full_name": "Neha Verma",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:00:20.000Z",
+            "last_login": "2025-08-29T11:00:20.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 15,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "rohit@example.com",
+            "full_name": "Rohit Kumar",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:00:30.000Z",
+            "last_login": "2025-08-29T11:00:30.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 16,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "anita@example.com",
+            "full_name": "Anita Singh",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:00:40.000Z",
+            "last_login": "2025-08-29T11:00:40.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 17,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "sanjay@example.com",
+            "full_name": "Sanjay Gupta",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:00:50.000Z",
+            "last_login": "2025-08-29T11:00:50.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 18,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "pooja@example.com",
+            "full_name": "Pooja Desai",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:01:00.000Z",
+            "last_login": "2025-08-29T11:01:00.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 19,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "vivek@example.com",
+            "full_name": "Vivek Joshi",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:01:10.000Z",
+            "last_login": "2025-08-29T11:01:10.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 20,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "meena@example.com",
+            "full_name": "Meena Rao",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:01:20.000Z",
+            "last_login": "2025-08-29T11:01:20.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 21,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "amit@example.com",
+            "full_name": "Amit Shah",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:01:30.000Z",
+            "last_login": "2025-08-29T11:01:30.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 22,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "kavita@example.com",
+            "full_name": "Kavita Menon",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:01:40.000Z",
+            "last_login": "2025-08-29T11:01:40.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 23,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "rahul@example.com",
+            "full_name": "Rahul Nair",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:01:50.000Z",
+            "last_login": "2025-08-29T11:01:50.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 24,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "swati@example.com",
+            "full_name": "Swati Iyer",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:02:00.000Z",
+            "last_login": "2025-08-29T11:02:00.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 25,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "manish@example.com",
+            "full_name": "Manish Reddy",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:02:10.000Z",
+            "last_login": "2025-08-29T11:02:10.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 26,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "trainer3@example.com",
+            "full_name": "Trainer 3",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:02:20.000Z",
+            "last_login": "2025-08-29T11:02:20.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 27,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "trainer4@example.com",
+            "full_name": "Trainer 4",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:02:30.000Z",
+            "last_login": "2025-08-29T11:02:30.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 28,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "divya@example.com",
+            "full_name": "Divya Pillai",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:02:40.000Z",
+            "last_login": "2025-08-29T11:02:40.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 29,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "suresh@example.com",
+            "full_name": "Suresh Malhotra",
+            "gender": "Male",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:02:50.000Z",
+            "last_login": "2025-08-29T11:02:50.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 30,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$30IiwOstxD1MNUbu1iYXfH$u+S9wZm1AJdMCVMayYzuZu2vSkXDw9pAJKGjMyvXdHk=",
+            "email": "nisha@example.com",
+            "full_name": "Nisha Kapoor",
+            "gender": "Female",
+            "phone_number": "+919587468957",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-08-29T11:03:00.000Z",
+            "last_login": "2025-08-29T11:03:00.000Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

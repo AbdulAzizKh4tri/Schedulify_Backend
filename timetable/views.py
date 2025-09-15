@@ -3,6 +3,8 @@ from django.shortcuts import render
 from rest_framework import viewsets
 from rest_framework.permissions import AllowAny, IsAuthenticated
 
+import json
+
 
 from .timetablegenerator import generate_timetable
 from .permissions import IsAdmin, IsOwnerOrReadOnly, IsSelfOrReadOnly, ReadOnly
@@ -64,14 +66,24 @@ class TimetableViewSet(viewsets.ModelViewSet):
         return [ReadOnly()]
 
 def generate(request):
+    """
+        attempts to generate the timetable and returns the output of the LP
+    """
     try:
-        generate_timetable()
+        LP_output = generate_timetable()
+        print(LP_output)
+        if LP_output is None:
+            return JsonResponse({"message":"No full timetable possible"})
     except Exception as e:
         return JsonResponse({"message": "Unable to generate timetable " + str(e)},status=500)
-    return JsonResponse({"message": "okay"})
+    return JsonResponse({"data": LP_output})
 
 def show(request, ttid, division):
-    division_tt = TimetableEntry.objects.filter(timetable__id=ttid, division__name=division).order_by('time_slot')
+    #TEMP:
+    tt = Timetable.objects.last()
+    division_tt = TimetableEntry.objects.filter(timetable=tt, division__name=division).order_by('time_slot')
+    #:TEMP
+    #division_tt = TimetableEntry.objects.filter(timetable__id=ttid, division__name=division).order_by('time_slot')
     timetable_data = [
         {
             'division': entry.division.name,

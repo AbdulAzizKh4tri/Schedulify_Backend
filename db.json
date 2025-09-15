@@ -1,0 +1,1882 @@
+[
+    {
+        "model": "timetable.department",
+        "pk": 1,
+        "fields": {
+            "name": "test"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 2,
+        "fields": {
+            "name": "IEP"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 3,
+        "fields": {
+            "name": "ASH"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 4,
+        "fields": {
+            "name": "ByteXL"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 5,
+        "fields": {
+            "name": "CDC"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 6,
+        "fields": {
+            "name": "AI"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 7,
+        "fields": {
+            "name": "ML"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 8,
+        "fields": {
+            "name": "DS"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 9,
+        "fields": {
+            "name": "CyberSec"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 10,
+        "fields": {
+            "name": "Cloud"
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 1,
+        "fields": {
+            "name": "Design and Analysis of Algorithms",
+            "code": "DAA101",
+            "lectures_per_week": 3,
+            "labs_per_week": 2,
+            "department": 4
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 2,
+        "fields": {
+            "name": "Theory of Computation",
+            "code": "TOC101",
+            "lectures_per_week": 3,
+            "labs_per_week": 0,
+            "department": 2
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 3,
+        "fields": {
+            "name": "Software Engineering",
+            "code": "SE101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 2
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 4,
+        "fields": {
+            "name": "Professionalism & Corporate Ethics",
+            "code": "PCE101",
+            "lectures_per_week": 1,
+            "labs_per_week": 0,
+            "department": 5
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 5,
+        "fields": {
+            "name": "Quant & Reasoning",
+            "code": "QR101",
+            "lectures_per_week": 2,
+            "labs_per_week": 0,
+            "department": 3
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 6,
+        "fields": {
+            "name": "Enterprise Programming",
+            "code": "EP101",
+            "lectures_per_week": 2,
+            "labs_per_week": 1,
+            "department": 4
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 7,
+        "fields": {
+            "name": "Machine Learning Fundamentals",
+            "code": "ML101",
+            "lectures_per_week": 3,
+            "labs_per_week": 2,
+            "department": 7
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 8,
+        "fields": {
+            "name": "Artificial Intelligence Principles",
+            "code": "AI101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 6
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 9,
+        "fields": {
+            "name": "Data Science Techniques",
+            "code": "DS101",
+            "lectures_per_week": 3,
+            "labs_per_week": 2,
+            "department": 8
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 10,
+        "fields": {
+            "name": "Deep Learning",
+            "code": "DL101",
+            "lectures_per_week": 2,
+            "labs_per_week": 1,
+            "department": 7
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 11,
+        "fields": {
+            "name": "Big Data Analytics",
+            "code": "BDA101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 8
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 12,
+        "fields": {
+            "name": "Natural Language Processing",
+            "code": "NLP101",
+            "lectures_per_week": 2,
+            "labs_per_week": 1,
+            "department": 6
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 13,
+        "fields": {
+            "name": "Cybersecurity Fundamentals",
+            "code": "CS101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 9
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 14,
+        "fields": {
+            "name": "Network Security",
+            "code": "NS101",
+            "lectures_per_week": 2,
+            "labs_per_week": 1,
+            "department": 9
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 15,
+        "fields": {
+            "name": "Cloud Computing Basics",
+            "code": "CC101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 10
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 16,
+        "fields": {
+            "name": "Distributed Systems",
+            "code": "DSYS101",
+            "lectures_per_week": 2,
+            "labs_per_week": 1,
+            "department": 10
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 17,
+        "fields": {
+            "name": "Database Management Systems",
+            "code": "DBMS101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 2
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 18,
+        "fields": {
+            "name": "Operating Systems",
+            "code": "OS101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 2
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 19,
+        "fields": {
+            "name": "Computer Networks",
+            "code": "CN101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 4
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 20,
+        "fields": {
+            "name": "Ethical Hacking",
+            "code": "EH101",
+            "lectures_per_week": 2,
+            "labs_per_week": 2,
+            "department": 9
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "staff_id": "test1",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "staff_id": "teach2",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "staff_id": "teach3",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "staff_id": "teach4",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "staff_id": "teach5",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "staff_id": "teach6",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 7,
+        "fields": {
+            "user": 7,
+            "staff_id": "teach7",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 8,
+        "fields": {
+            "user": 8,
+            "staff_id": "teach8",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 9,
+        "fields": {
+            "user": 9,
+            "staff_id": "teach9",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 4,
+            "max_workload": 40
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 10,
+        "fields": {
+            "user": 10,
+            "staff_id": "teach10",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 4,
+            "max_workload": 40
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 11,
+        "fields": {
+            "user": 11,
+            "staff_id": "teach11",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 5,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 12,
+        "fields": {
+            "user": 12,
+            "staff_id": "teach12",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 6,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 13,
+        "fields": {
+            "user": 13,
+            "staff_id": "teach13",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 6,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 14,
+        "fields": {
+            "user": 14,
+            "staff_id": "teach14",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 7,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 15,
+        "fields": {
+            "user": 15,
+            "staff_id": "teach15",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 7,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 16,
+        "fields": {
+            "user": 16,
+            "staff_id": "teach16",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 8,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 17,
+        "fields": {
+            "user": 17,
+            "staff_id": "teach17",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 8,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 18,
+        "fields": {
+            "user": 18,
+            "staff_id": "teach18",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 9,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 19,
+        "fields": {
+            "user": 19,
+            "staff_id": "teach19",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 9,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 20,
+        "fields": {
+            "user": 20,
+            "staff_id": "teach20",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 10,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 21,
+        "fields": {
+            "user": 21,
+            "staff_id": "teach21",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 10,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 22,
+        "fields": {
+            "user": 22,
+            "staff_id": "teach22",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 23,
+        "fields": {
+            "user": 23,
+            "staff_id": "teach23",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 24,
+        "fields": {
+            "user": 24,
+            "staff_id": "teach24",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 25,
+        "fields": {
+            "user": 25,
+            "staff_id": "teach25",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 26,
+        "fields": {
+            "user": 26,
+            "staff_id": "teach26",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 4,
+            "max_workload": 40
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 27,
+        "fields": {
+            "user": 27,
+            "staff_id": "teach27",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 4,
+            "max_workload": 40
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 28,
+        "fields": {
+            "user": 28,
+            "staff_id": "teach28",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 5,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 29,
+        "fields": {
+            "user": 29,
+            "staff_id": "teach29",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 6,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 30,
+        "fields": {
+            "user": 30,
+            "staff_id": "teach30",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 7,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 1,
+        "fields": {
+            "number": "N501",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 2,
+        "fields": {
+            "number": "N502",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 3,
+        "fields": {
+            "number": "N503",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 4,
+        "fields": {
+            "number": "N504",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 5,
+        "fields": {
+            "number": "N505",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 6,
+        "fields": {
+            "number": "N506",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 7,
+        "fields": {
+            "number": "N507",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 8,
+        "fields": {
+            "number": "N508",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 9,
+        "fields": {
+            "number": "N509",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 10,
+        "fields": {
+            "number": "N510",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 11,
+        "fields": {
+            "number": "N511",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 12,
+        "fields": {
+            "number": "N512",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 13,
+        "fields": {
+            "number": "N513",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 14,
+        "fields": {
+            "number": "N514",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 15,
+        "fields": {
+            "number": "N515",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 1,
+        "fields": {
+            "name": "5MICRO1",
+            "semester": 5,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 2,
+        "fields": {
+            "name": "5MICRO2",
+            "semester": 5,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 3,
+        "fields": {
+            "name": "5ORACLE1",
+            "semester": 5,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 4,
+        "fields": {
+            "name": "5QUICK1",
+            "semester": 5,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 5,
+        "fields": {
+            "name": "5SAP1",
+            "semester": 5,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 6,
+        "fields": {
+            "name": "5AI1",
+            "semester": 5,
+            "department": 6,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                8,
+                12
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 7,
+        "fields": {
+            "name": "5AI2",
+            "semester": 5,
+            "department": 6,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                8,
+                12
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 8,
+        "fields": {
+            "name": "5ML1",
+            "semester": 5,
+            "department": 7,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 9,
+        "fields": {
+            "name": "5ML2",
+            "semester": 5,
+            "department": 7,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 10,
+        "fields": {
+            "name": "5DS1",
+            "semester": 5,
+            "department": 8,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                9,
+                11
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 11,
+        "fields": {
+            "name": "5DS2",
+            "semester": 5,
+            "department": 8,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                9,
+                11
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 12,
+        "fields": {
+            "name": "5CYBER1",
+            "semester": 5,
+            "department": 9,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                13,
+                14,
+                20
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 13,
+        "fields": {
+            "name": "5CYBER2",
+            "semester": 5,
+            "department": 9,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                13,
+                14,
+                20
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 14,
+        "fields": {
+            "name": "5CLOUD1",
+            "semester": 5,
+            "department": 10,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                15,
+                16
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 15,
+        "fields": {
+            "name": "5CLOUD2",
+            "semester": 5,
+            "department": 10,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                15,
+                16
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 16,
+        "fields": {
+            "name": "7MICRO1",
+            "semester": 7,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                17,
+                18
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 17,
+        "fields": {
+            "name": "7MICRO2",
+            "semester": 7,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                17,
+                18
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 18,
+        "fields": {
+            "name": "7ORACLE1",
+            "semester": 7,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                17,
+                18
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 19,
+        "fields": {
+            "name": "7QUICK1",
+            "semester": 7,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                17,
+                18
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 20,
+        "fields": {
+            "name": "7SAP1",
+            "semester": 7,
+            "department": 2,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                17,
+                18
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 21,
+        "fields": {
+            "name": "7AI1",
+            "semester": 7,
+            "department": 6,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                8,
+                12
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 22,
+        "fields": {
+            "name": "7AI2",
+            "semester": 7,
+            "department": 6,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                8,
+                12
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 23,
+        "fields": {
+            "name": "7ML1",
+            "semester": 7,
+            "department": 7,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 24,
+        "fields": {
+            "name": "7ML2",
+            "semester": 7,
+            "department": 7,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 25,
+        "fields": {
+            "name": "7DS1",
+            "semester": 7,
+            "department": 8,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                9,
+                11
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 26,
+        "fields": {
+            "name": "7DS2",
+            "semester": 7,
+            "department": 8,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                9,
+                11
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 27,
+        "fields": {
+            "name": "7CYBER1",
+            "semester": 7,
+            "department": 9,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                13,
+                14,
+                20
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 28,
+        "fields": {
+            "name": "7CYBER2",
+            "semester": 7,
+            "department": 9,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                13,
+                14,
+                20
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 29,
+        "fields": {
+            "name": "7CLOUD1",
+            "semester": 7,
+            "department": 10,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                15,
+                16
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 30,
+        "fields": {
+            "name": "7CLOUD2",
+            "semester": 7,
+            "department": 10,
+            "availability": "000000000000111111111111111111111111111111111111",
+            "subjects": [
+                4,
+                5,
+                15,
+                16
+            ]
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 1,
+        "fields": {
+            "subject": 2,
+            "teacher": 2,
+            "score": 7,
+            "created_at": "2025-09-12T16:44:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 2,
+        "fields": {
+            "subject": 3,
+            "teacher": 2,
+            "score": 4,
+            "created_at": "2025-09-12T16:45:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 3,
+        "fields": {
+            "subject": 17,
+            "teacher": 2,
+            "score": 9,
+            "created_at": "2025-09-12T16:45:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 4,
+        "fields": {
+            "subject": 18,
+            "teacher": 2,
+            "score": 6,
+            "created_at": "2025-09-12T16:45:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 5,
+        "fields": {
+            "subject": 2,
+            "teacher": 3,
+            "score": 3,
+            "created_at": "2025-09-12T16:45:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 6,
+        "fields": {
+            "subject": 3,
+            "teacher": 3,
+            "score": 8,
+            "created_at": "2025-09-12T16:45:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 7,
+        "fields": {
+            "subject": 17,
+            "teacher": 3,
+            "score": 5,
+            "created_at": "2025-09-12T16:45:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 8,
+        "fields": {
+            "subject": 18,
+            "teacher": 3,
+            "score": 10,
+            "created_at": "2025-09-12T16:46:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 9,
+        "fields": {
+            "subject": 5,
+            "teacher": 4,
+            "score": 2,
+            "created_at": "2025-09-12T16:46:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 10,
+        "fields": {
+            "subject": 5,
+            "teacher": 5,
+            "score": 7,
+            "created_at": "2025-09-12T16:46:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 11,
+        "fields": {
+            "subject": 2,
+            "teacher": 6,
+            "score": 4,
+            "created_at": "2025-09-12T16:46:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 12,
+        "fields": {
+            "subject": 3,
+            "teacher": 6,
+            "score": 9,
+            "created_at": "2025-09-12T16:46:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 13,
+        "fields": {
+            "subject": 17,
+            "teacher": 6,
+            "score": 6,
+            "created_at": "2025-09-12T16:46:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 14,
+        "fields": {
+            "subject": 18,
+            "teacher": 6,
+            "score": 3,
+            "created_at": "2025-09-12T16:47:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 15,
+        "fields": {
+            "subject": 5,
+            "teacher": 7,
+            "score": 8,
+            "created_at": "2025-09-12T16:47:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 16,
+        "fields": {
+            "subject": 2,
+            "teacher": 8,
+            "score": 5,
+            "created_at": "2025-09-12T16:47:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 17,
+        "fields": {
+            "subject": 3,
+            "teacher": 8,
+            "score": 10,
+            "created_at": "2025-09-12T16:47:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 18,
+        "fields": {
+            "subject": 17,
+            "teacher": 8,
+            "score": 2,
+            "created_at": "2025-09-12T16:47:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 19,
+        "fields": {
+            "subject": 18,
+            "teacher": 8,
+            "score": 7,
+            "created_at": "2025-09-12T16:47:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 20,
+        "fields": {
+            "subject": 1,
+            "teacher": 9,
+            "score": 4,
+            "created_at": "2025-09-12T16:48:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 21,
+        "fields": {
+            "subject": 6,
+            "teacher": 9,
+            "score": 9,
+            "created_at": "2025-09-12T16:48:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 22,
+        "fields": {
+            "subject": 19,
+            "teacher": 9,
+            "score": 6,
+            "created_at": "2025-09-12T16:48:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 23,
+        "fields": {
+            "subject": 1,
+            "teacher": 10,
+            "score": 3,
+            "created_at": "2025-09-12T16:48:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 24,
+        "fields": {
+            "subject": 6,
+            "teacher": 10,
+            "score": 8,
+            "created_at": "2025-09-12T16:48:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 25,
+        "fields": {
+            "subject": 19,
+            "teacher": 10,
+            "score": 5,
+            "created_at": "2025-09-12T16:48:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 26,
+        "fields": {
+            "subject": 4,
+            "teacher": 11,
+            "score": 10,
+            "created_at": "2025-09-12T16:49:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 27,
+        "fields": {
+            "subject": 8,
+            "teacher": 12,
+            "score": 2,
+            "created_at": "2025-09-12T16:49:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 28,
+        "fields": {
+            "subject": 12,
+            "teacher": 12,
+            "score": 7,
+            "created_at": "2025-09-12T16:49:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 29,
+        "fields": {
+            "subject": 8,
+            "teacher": 13,
+            "score": 4,
+            "created_at": "2025-09-12T16:49:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 30,
+        "fields": {
+            "subject": 12,
+            "teacher": 13,
+            "score": 9,
+            "created_at": "2025-09-12T16:49:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 31,
+        "fields": {
+            "subject": 7,
+            "teacher": 14,
+            "score": 6,
+            "created_at": "2025-09-12T16:49:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 32,
+        "fields": {
+            "subject": 10,
+            "teacher": 14,
+            "score": 3,
+            "created_at": "2025-09-12T16:50:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 33,
+        "fields": {
+            "subject": 7,
+            "teacher": 15,
+            "score": 8,
+            "created_at": "2025-09-12T16:50:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 34,
+        "fields": {
+            "subject": 10,
+            "teacher": 15,
+            "score": 5,
+            "created_at": "2025-09-12T16:50:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 35,
+        "fields": {
+            "subject": 9,
+            "teacher": 16,
+            "score": 10,
+            "created_at": "2025-09-12T16:50:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 36,
+        "fields": {
+            "subject": 11,
+            "teacher": 16,
+            "score": 2,
+            "created_at": "2025-09-12T16:50:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 37,
+        "fields": {
+            "subject": 9,
+            "teacher": 17,
+            "score": 7,
+            "created_at": "2025-09-12T16:50:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 38,
+        "fields": {
+            "subject": 11,
+            "teacher": 17,
+            "score": 4,
+            "created_at": "2025-09-12T16:51:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 39,
+        "fields": {
+            "subject": 13,
+            "teacher": 18,
+            "score": 9,
+            "created_at": "2025-09-12T16:51:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 40,
+        "fields": {
+            "subject": 14,
+            "teacher": 18,
+            "score": 6,
+            "created_at": "2025-09-12T16:51:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 41,
+        "fields": {
+            "subject": 20,
+            "teacher": 18,
+            "score": 3,
+            "created_at": "2025-09-12T16:51:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 42,
+        "fields": {
+            "subject": 13,
+            "teacher": 19,
+            "score": 8,
+            "created_at": "2025-09-12T16:51:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 43,
+        "fields": {
+            "subject": 14,
+            "teacher": 19,
+            "score": 5,
+            "created_at": "2025-09-12T16:51:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 44,
+        "fields": {
+            "subject": 20,
+            "teacher": 19,
+            "score": 10,
+            "created_at": "2025-09-12T16:52:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 45,
+        "fields": {
+            "subject": 15,
+            "teacher": 20,
+            "score": 2,
+            "created_at": "2025-09-12T16:52:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 46,
+        "fields": {
+            "subject": 16,
+            "teacher": 20,
+            "score": 7,
+            "created_at": "2025-09-12T16:52:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 47,
+        "fields": {
+            "subject": 15,
+            "teacher": 21,
+            "score": 4,
+            "created_at": "2025-09-12T16:52:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 48,
+        "fields": {
+            "subject": 16,
+            "teacher": 21,
+            "score": 9,
+            "created_at": "2025-09-12T16:52:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 49,
+        "fields": {
+            "subject": 2,
+            "teacher": 22,
+            "score": 6,
+            "created_at": "2025-09-12T16:52:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 50,
+        "fields": {
+            "subject": 3,
+            "teacher": 22,
+            "score": 3,
+            "created_at": "2025-09-12T16:53:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 51,
+        "fields": {
+            "subject": 17,
+            "teacher": 22,
+            "score": 8,
+            "created_at": "2025-09-12T16:53:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 52,
+        "fields": {
+            "subject": 18,
+            "teacher": 22,
+            "score": 5,
+            "created_at": "2025-09-12T16:53:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 53,
+        "fields": {
+            "subject": 2,
+            "teacher": 23,
+            "score": 10,
+            "created_at": "2025-09-12T16:53:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 54,
+        "fields": {
+            "subject": 3,
+            "teacher": 23,
+            "score": 2,
+            "created_at": "2025-09-12T16:53:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 55,
+        "fields": {
+            "subject": 17,
+            "teacher": 23,
+            "score": 7,
+            "created_at": "2025-09-12T16:53:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 56,
+        "fields": {
+            "subject": 18,
+            "teacher": 23,
+            "score": 4,
+            "created_at": "2025-09-12T16:54:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 57,
+        "fields": {
+            "subject": 5,
+            "teacher": 24,
+            "score": 9,
+            "created_at": "2025-09-12T16:54:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 58,
+        "fields": {
+            "subject": 5,
+            "teacher": 25,
+            "score": 6,
+            "created_at": "2025-09-12T16:54:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 59,
+        "fields": {
+            "subject": 1,
+            "teacher": 26,
+            "score": 3,
+            "created_at": "2025-09-12T16:54:34.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 60,
+        "fields": {
+            "subject": 6,
+            "teacher": 26,
+            "score": 8,
+            "created_at": "2025-09-12T16:54:44.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 61,
+        "fields": {
+            "subject": 19,
+            "teacher": 26,
+            "score": 5,
+            "created_at": "2025-09-12T16:54:54.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 62,
+        "fields": {
+            "subject": 1,
+            "teacher": 27,
+            "score": 10,
+            "created_at": "2025-09-12T16:55:04.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 63,
+        "fields": {
+            "subject": 6,
+            "teacher": 27,
+            "score": 2,
+            "created_at": "2025-09-12T16:55:14.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 64,
+        "fields": {
+            "subject": 19,
+            "teacher": 27,
+            "score": 7,
+            "created_at": "2025-09-12T16:55:24.332Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 65,
+        "fields": {
+            "subject": 4,
+            "teacher": 28,
+            "score": 4,
+            "created_at": "2025-09-12T16:55:34.332Z"
+        }
+    }
+]
