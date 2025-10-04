@@ -52,8 +52,16 @@ def same_subject_in_day_exists(division_id, subject_id, slot, session_type, curr
             return True
     return False
 
+iterations = 0
 def try_allocate(assignment_index, assignments, teachers, classrooms, divisions, current_allocations):
         """Recursive backtracking allocation."""
+
+        global iterations
+        iterations += 1
+        if iterations % 1000 == 0:
+            print(f"Iterations: {iterations}, Current allocations: {len(current_allocations)}/{len(assignments)}")
+
+
         if assignment_index == len(assignments):
             return []  # success, no more to assign
 
@@ -123,8 +131,6 @@ def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
     from .utils import get_teacher_subject_division_mapping
     
     
-    Timetable.objects.all().delete()
-    new_timetable = Timetable.objects.create()
 
 
     teachers = get_modifiable_entity_array(Teacher,teacher_ids)
@@ -150,6 +156,8 @@ def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
         return None
 
 
+    Timetable.objects.all().delete()
+    new_timetable = Timetable.objects.create()
     timetable_entries = [
         TimetableEntry(
             teacher_id=t_id,
@@ -165,11 +173,3 @@ def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
 
     TimetableEntry.objects.bulk_create(timetable_entries)
     return LP_output
-
-        
-
-    
-if __name__ == "__main__":
-    timetable = generate_timetable()
-    for entry in timetable:
-        print(f"{entry.division} | {entry.subject} | {entry.teacher} | {entry.classroom} | Slot {entry.time_slot}")

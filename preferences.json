@@ -1,0 +1,912 @@
+[
+  {
+    "model": "timetable.preference",
+    "pk": 1,
+    "fields": {
+      "subject": 1,
+      "teacher": 1,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 2,
+    "fields": {
+      "subject": 3,
+      "teacher": 1,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 3,
+    "fields": {
+      "subject": 3,
+      "teacher": 2,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 4,
+    "fields": {
+      "subject": 4,
+      "teacher": 3,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 5,
+    "fields": {
+      "subject": 5,
+      "teacher": 3,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 6,
+    "fields": {
+      "subject": 5,
+      "teacher": 4,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 7,
+    "fields": {
+      "subject": 7,
+      "teacher": 5,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 8,
+    "fields": {
+      "subject": 8,
+      "teacher": 5,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 9,
+    "fields": {
+      "subject": 8,
+      "teacher": 6,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 10,
+    "fields": {
+      "subject": 9,
+      "teacher": 7,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 11,
+    "fields": {
+      "subject": 10,
+      "teacher": 7,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 12,
+    "fields": {
+      "subject": 10,
+      "teacher": 8,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 13,
+    "fields": {
+      "subject": 13,
+      "teacher": 9,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 14,
+    "fields": {
+      "subject": 14,
+      "teacher": 9,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 15,
+    "fields": {
+      "subject": 14,
+      "teacher": 10,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 16,
+    "fields": {
+      "subject": 15,
+      "teacher": 11,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 17,
+    "fields": {
+      "subject": 16,
+      "teacher": 11,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 18,
+    "fields": {
+      "subject": 16,
+      "teacher": 12,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 19,
+    "fields": {
+      "subject": 17,
+      "teacher": 13,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 20,
+    "fields": {
+      "subject": 1,
+      "teacher": 13,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 21,
+    "fields": {
+      "subject": 1,
+      "teacher": 14,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 22,
+    "fields": {
+      "subject": 3,
+      "teacher": 15,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 23,
+    "fields": {
+      "subject": 4,
+      "teacher": 15,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 24,
+    "fields": {
+      "subject": 4,
+      "teacher": 16,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 25,
+    "fields": {
+      "subject": 5,
+      "teacher": 26,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 26,
+    "fields": {
+      "subject": 7,
+      "teacher": 26,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 27,
+    "fields": {
+      "subject": 7,
+      "teacher": 27,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 28,
+    "fields": {
+      "subject": 8,
+      "teacher": 28,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 29,
+    "fields": {
+      "subject": 9,
+      "teacher": 28,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 30,
+    "fields": {
+      "subject": 9,
+      "teacher": 29,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 31,
+    "fields": {
+      "subject": 10,
+      "teacher": 30,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 32,
+    "fields": {
+      "subject": 13,
+      "teacher": 30,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 33,
+    "fields": {
+      "subject": 13,
+      "teacher": 31,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 34,
+    "fields": {
+      "subject": 14,
+      "teacher": 32,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 35,
+    "fields": {
+      "subject": 15,
+      "teacher": 32,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 36,
+    "fields": {
+      "subject": 15,
+      "teacher": 33,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 37,
+    "fields": {
+      "subject": 16,
+      "teacher": 34,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 38,
+    "fields": {
+      "subject": 17,
+      "teacher": 34,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 39,
+    "fields": {
+      "subject": 17,
+      "teacher": 35,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 40,
+    "fields": {
+      "subject": 1,
+      "teacher": 36,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 41,
+    "fields": {
+      "subject": 3,
+      "teacher": 36,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 42,
+    "fields": {
+      "subject": 3,
+      "teacher": 37,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 43,
+    "fields": {
+      "subject": 4,
+      "teacher": 38,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 44,
+    "fields": {
+      "subject": 5,
+      "teacher": 38,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 45,
+    "fields": {
+      "subject": 5,
+      "teacher": 39,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 46,
+    "fields": {
+      "subject": 7,
+      "teacher": 40,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 47,
+    "fields": {
+      "subject": 8,
+      "teacher": 40,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 48,
+    "fields": {
+      "subject": 8,
+      "teacher": 62,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 49,
+    "fields": {
+      "subject": 9,
+      "teacher": 63,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 50,
+    "fields": {
+      "subject": 10,
+      "teacher": 63,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 51,
+    "fields": {
+      "subject": 10,
+      "teacher": 64,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 52,
+    "fields": {
+      "subject": 2,
+      "teacher": 17,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 53,
+    "fields": {
+      "subject": 12,
+      "teacher": 17,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 54,
+    "fields": {
+      "subject": 12,
+      "teacher": 18,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 55,
+    "fields": {
+      "subject": 2,
+      "teacher": 19,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 56,
+    "fields": {
+      "subject": 12,
+      "teacher": 19,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 57,
+    "fields": {
+      "subject": 12,
+      "teacher": 41,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 58,
+    "fields": {
+      "subject": 2,
+      "teacher": 42,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 59,
+    "fields": {
+      "subject": 12,
+      "teacher": 42,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 60,
+    "fields": {
+      "subject": 12,
+      "teacher": 43,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 61,
+    "fields": {
+      "subject": 2,
+      "teacher": 44,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 62,
+    "fields": {
+      "subject": 12,
+      "teacher": 44,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 63,
+    "fields": {
+      "subject": 12,
+      "teacher": 45,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 64,
+    "fields": {
+      "subject": 2,
+      "teacher": 46,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 65,
+    "fields": {
+      "subject": 12,
+      "teacher": 46,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 66,
+    "fields": {
+      "subject": 12,
+      "teacher": 47,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 67,
+    "fields": {
+      "subject": 2,
+      "teacher": 48,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 68,
+    "fields": {
+      "subject": 12,
+      "teacher": 48,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 69,
+    "fields": {
+      "subject": 12,
+      "teacher": 61,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 70,
+    "fields": {
+      "subject": 6,
+      "teacher": 23,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 71,
+    "fields": {
+      "subject": 6,
+      "teacher": 24,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 72,
+    "fields": {
+      "subject": 6,
+      "teacher": 55,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 73,
+    "fields": {
+      "subject": 6,
+      "teacher": 56,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 74,
+    "fields": {
+      "subject": 6,
+      "teacher": 57,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 75,
+    "fields": {
+      "subject": 6,
+      "teacher": 58,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 76,
+    "fields": {
+      "subject": 6,
+      "teacher": 59,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 77,
+    "fields": {
+      "subject": 6,
+      "teacher": 60,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 78,
+    "fields": {
+      "subject": 11,
+      "teacher": 20,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 79,
+    "fields": {
+      "subject": 18,
+      "teacher": 20,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 80,
+    "fields": {
+      "subject": 18,
+      "teacher": 21,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 81,
+    "fields": {
+      "subject": 11,
+      "teacher": 22,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 82,
+    "fields": {
+      "subject": 18,
+      "teacher": 22,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 83,
+    "fields": {
+      "subject": 18,
+      "teacher": 49,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 84,
+    "fields": {
+      "subject": 11,
+      "teacher": 50,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 85,
+    "fields": {
+      "subject": 18,
+      "teacher": 50,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 86,
+    "fields": {
+      "subject": 18,
+      "teacher": 51,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 87,
+    "fields": {
+      "subject": 11,
+      "teacher": 52,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 88,
+    "fields": {
+      "subject": 18,
+      "teacher": 52,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 89,
+    "fields": {
+      "subject": 18,
+      "teacher": 53,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 90,
+    "fields": {
+      "subject": 11,
+      "teacher": 54,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  },
+  {
+    "model": "timetable.preference",
+    "pk": 91,
+    "fields": {
+      "subject": 18,
+      "teacher": 54,
+      "score": 10,
+      "created_at": "2025-09-15T07:34:11.067138Z"
+    }
+  }
+]
