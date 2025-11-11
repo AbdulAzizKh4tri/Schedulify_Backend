@@ -57,9 +57,9 @@ def try_allocate(assignment_index, assignments, teachers, classrooms, divisions,
         """Recursive backtracking allocation."""
 
         global iterations
-        iterations += 1
         if iterations % 1000 == 0:
             print(f"Iterations: {iterations}, Current allocations: {len(current_allocations)}/{len(assignments)}")
+        iterations += 1
 
 
         if assignment_index == len(assignments):

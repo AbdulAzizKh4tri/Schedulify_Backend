@@ -71,9 +71,6 @@ def generate(request):
     """
     try:
         LP_output = generate_timetable()
-        print(LP_output)
-        if LP_output is None:
-            return JsonResponse({"message":"No full timetable possible"})
     except Exception as e:
         return JsonResponse({"message": "Unable to generate timetable " + str(e)},status=500)
     return JsonResponse({"data": LP_output})

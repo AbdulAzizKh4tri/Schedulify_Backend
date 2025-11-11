@@ -16,7 +16,7 @@ class Department(models.Model):
     name = models.CharField(max_length=255)
 
     def __str__(self):
-        return self.name
+        return f"{self.pk} {self.name}"
 
 
 class Subject(models.Model):
@@ -29,7 +29,7 @@ class Subject(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return f"{self.pk} {self.name}"
 
 
 class Teacher(models.Model):
@@ -44,7 +44,7 @@ class Teacher(models.Model):
     max_workload = models.PositiveSmallIntegerField()
 
     def __str__(self):
-        return self.user.full_name
+        return f"{self.pk} {self.user.full_name}"
     
 
 class ClassRoom(models.Model):
@@ -52,7 +52,7 @@ class ClassRoom(models.Model):
     availability = models.CharField(max_length=TIME_SLOTS, default=BOTH_SHIFTS)
 
     def __str__(self):
-        return self.number
+        return f"{self.pk} {self.number}"
 
 
 class Division(models.Model):
@@ -65,7 +65,7 @@ class Division(models.Model):
     availability = models.CharField(max_length=TIME_SLOTS, default=SHIFT_2)
 
     def __str__(self):
-        return self.name
+        return f"{self.pk} {self.name}"
 
 
 class Preference(models.Model):

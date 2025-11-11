@@ -1,0 +1,4212 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2025-10-13T05:09:31.967Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "501",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2025-10-13T05:09:35.325Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "502",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2025-10-13T05:09:38.583Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "503",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2025-10-13T05:09:40.652Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "504",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2025-10-13T05:09:44.612Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "505",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2025-10-13T05:09:48.778Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "506",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2025-10-13T05:09:51.317Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "7",
+            "object_repr": "507",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2025-10-13T05:09:53.977Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "8",
+            "object_repr": "508",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2025-10-13T05:09:56.536Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "9",
+            "object_repr": "509",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2025-10-13T05:10:05.058Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "IEP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2025-10-13T05:10:09.326Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "ASH",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2025-10-13T05:10:14.063Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "ByteXL",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2025-10-13T05:10:23.061Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "CDC",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2025-10-13T05:12:10.680Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "High Performance Computing",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2025-10-13T05:28:51.483Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Vikash",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2025-10-13T05:32:42.713Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Design and Analysis of Algorithms Trainer 1 10",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2025-10-13T05:36:25.088Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "Design and Analysis of Algorithms Trainer 1 10",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2025-10-13T05:38:53.160Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "7IEP1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2025-10-13T05:40:19.764Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "7IEP2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2025-10-13T05:40:30.239Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "5MICRO1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2025-10-13T05:40:37.725Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "5MICRO2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2025-10-13T05:40:45.879Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "5ORACLE1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2025-10-13T05:41:01.061Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "5QUICKHEAL1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2025-10-13T05:41:14.249Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "5SAP1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2025-10-15T06:07:28.456Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "7IEP1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2025-10-15T06:07:53.906Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "7IEP2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2025-10-15T06:08:17.178Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "5MICRO1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2025-10-15T06:08:56.491Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "5MICRO2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2025-10-15T06:09:11.302Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "5ORACLE1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2025-10-15T06:09:15.659Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "5QUICKHEAL1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2025-10-15T06:09:21.876Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "5SAP1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Availability\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add Outstanding Token",
+            "content_type": 6,
+            "codename": "add_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change Outstanding Token",
+            "content_type": 6,
+            "codename": "change_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete Outstanding Token",
+            "content_type": 6,
+            "codename": "delete_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view Outstanding Token",
+            "content_type": 6,
+            "codename": "view_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add Blacklisted Token",
+            "content_type": 7,
+            "codename": "add_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change Blacklisted Token",
+            "content_type": 7,
+            "codename": "change_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete Blacklisted Token",
+            "content_type": 7,
+            "codename": "delete_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view Blacklisted Token",
+            "content_type": 7,
+            "codename": "view_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add department",
+            "content_type": 8,
+            "codename": "add_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change department",
+            "content_type": 8,
+            "codename": "change_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete department",
+            "content_type": 8,
+            "codename": "delete_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view department",
+            "content_type": 8,
+            "codename": "view_department"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add subject",
+            "content_type": 9,
+            "codename": "add_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change subject",
+            "content_type": 9,
+            "codename": "change_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete subject",
+            "content_type": 9,
+            "codename": "delete_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view subject",
+            "content_type": 9,
+            "codename": "view_subject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add teacher",
+            "content_type": 10,
+            "codename": "add_teacher"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change teacher",
+            "content_type": 10,
+            "codename": "change_teacher"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete teacher",
+            "content_type": 10,
+            "codename": "delete_teacher"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view teacher",
+            "content_type": 10,
+            "codename": "view_teacher"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add class room",
+            "content_type": 11,
+            "codename": "add_classroom"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change class room",
+            "content_type": 11,
+            "codename": "change_classroom"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete class room",
+            "content_type": 11,
+            "codename": "delete_classroom"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view class room",
+            "content_type": 11,
+            "codename": "view_classroom"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add division",
+            "content_type": 12,
+            "codename": "add_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change division",
+            "content_type": 12,
+            "codename": "change_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete division",
+            "content_type": 12,
+            "codename": "delete_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view division",
+            "content_type": 12,
+            "codename": "view_division"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add preference",
+            "content_type": 13,
+            "codename": "add_preference"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change preference",
+            "content_type": 13,
+            "codename": "change_preference"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete preference",
+            "content_type": 13,
+            "codename": "delete_preference"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view preference",
+            "content_type": 13,
+            "codename": "view_preference"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add timetable",
+            "content_type": 14,
+            "codename": "add_timetable"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change timetable",
+            "content_type": 14,
+            "codename": "change_timetable"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete timetable",
+            "content_type": 14,
+            "codename": "delete_timetable"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view timetable",
+            "content_type": 14,
+            "codename": "view_timetable"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add timetable entry",
+            "content_type": 15,
+            "codename": "add_timetableentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change timetable entry",
+            "content_type": 15,
+            "codename": "change_timetableentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete timetable entry",
+            "content_type": 15,
+            "codename": "delete_timetableentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view timetable entry",
+            "content_type": 15,
+            "codename": "view_timetableentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 16,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 16,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 16,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 16,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "outstandingtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "blacklistedtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "timetable",
+            "model": "department"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "timetable",
+            "model": "subject"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "timetable",
+            "model": "teacher"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "timetable",
+            "model": "classroom"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "timetable",
+            "model": "division"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "timetable",
+            "model": "preference"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "timetable",
+            "model": "timetable"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "timetable",
+            "model": "timetableentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "users",
+            "model": "user"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "h53ssw54ia9qzp23czv62j5mc1tyyhtd",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hBogQGX7nsGMjCjVA0kpV0Z765NutDtf-_9l4i4rSVunZc4kzgLLU6_W8L84LoDumO9NZlbXZc5yV2RB-1yasTPy-H-HRTs5VuDMiGwM8jsg1HJIyZ0nPlqPYyOcAAFrL0hb7VHCxiMJkh5tJbCoMX7A-g4N7g:1v8AoD:EYJtwAkL-UVzeGsIGWLwuUwSZZng6ifO5NaLVZ_DWE4",
+            "expire_date": "2025-10-27T05:09:21.550Z"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 1,
+        "fields": {
+            "name": "IEP"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 2,
+        "fields": {
+            "name": "ASH"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 3,
+        "fields": {
+            "name": "ByteXL"
+        }
+    },
+    {
+        "model": "timetable.department",
+        "pk": 4,
+        "fields": {
+            "name": "CDC"
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 1,
+        "fields": {
+            "name": "Design and Analysis of Algorithms",
+            "code": "DAA101",
+            "lectures_per_week": 3,
+            "labs_per_week": 2,
+            "department": 3
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 2,
+        "fields": {
+            "name": "Theory of Computation",
+            "code": "TOC101",
+            "lectures_per_week": 3,
+            "labs_per_week": 0,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 3,
+        "fields": {
+            "name": "Software Engineering",
+            "code": "SE101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 4,
+        "fields": {
+            "name": "Professionalism and Corporate Ethics",
+            "code": "PCE101",
+            "lectures_per_week": 1,
+            "labs_per_week": 0,
+            "department": 4
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 5,
+        "fields": {
+            "name": "Quant & Reasoning",
+            "code": "QR101",
+            "lectures_per_week": 2,
+            "labs_per_week": 0,
+            "department": 2
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 6,
+        "fields": {
+            "name": "Enterprise Programming",
+            "code": "ERP101",
+            "lectures_per_week": 2,
+            "labs_per_week": 1,
+            "department": 3
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 7,
+        "fields": {
+            "name": "Information and Network Security",
+            "code": "INS101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 8,
+        "fields": {
+            "name": "High Performance Computing",
+            "code": "HPC101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 9,
+        "fields": {
+            "name": "Software Testing and Quality Assurance",
+            "code": "STQA101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 10,
+        "fields": {
+            "name": "Cyber Physical Systems",
+            "code": "CPS101",
+            "lectures_per_week": 2,
+            "labs_per_week": 0,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.subject",
+        "pk": 11,
+        "fields": {
+            "name": "BlockChain",
+            "code": "BLC101",
+            "lectures_per_week": 3,
+            "labs_per_week": 1,
+            "department": 1
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "staff_id": "Viki101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "staff_id": "Chndra101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 3,
+        "fields": {
+            "user": 4,
+            "staff_id": "Yash101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 4,
+        "fields": {
+            "user": 5,
+            "staff_id": "Bumika101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 5,
+        "fields": {
+            "user": 6,
+            "staff_id": "Akruti101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 6,
+        "fields": {
+            "user": 7,
+            "staff_id": "Raj101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 7,
+        "fields": {
+            "user": 8,
+            "staff_id": "Kanya101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 8,
+        "fields": {
+            "user": 9,
+            "staff_id": "Prince101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 9,
+        "fields": {
+            "user": 10,
+            "staff_id": "Anusha101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 10,
+        "fields": {
+            "user": 11,
+            "staff_id": "Abhirup101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 11,
+        "fields": {
+            "user": 12,
+            "staff_id": "Trainer101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 30
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 12,
+        "fields": {
+            "user": 13,
+            "staff_id": "Trainer201",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 30
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 13,
+        "fields": {
+            "user": 14,
+            "staff_id": "CDCTrainer101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 4,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 1,
+        "fields": {
+            "number": "501",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 2,
+        "fields": {
+            "number": "502",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 3,
+        "fields": {
+            "number": "503",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 4,
+        "fields": {
+            "number": "504",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 5,
+        "fields": {
+            "number": "505",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 6,
+        "fields": {
+            "number": "506",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 7,
+        "fields": {
+            "number": "507",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 8,
+        "fields": {
+            "number": "508",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.classroom",
+        "pk": 9,
+        "fields": {
+            "number": "509",
+            "availability": "111111111111111111111111111111111111111111111111"
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 1,
+        "fields": {
+            "name": "7IEP1",
+            "semester": 7,
+            "department": 1,
+            "availability": "000000000000111011111011111011111011111011111011",
+            "subjects": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 2,
+        "fields": {
+            "name": "7IEP2",
+            "semester": 7,
+            "department": 1,
+            "availability": "000000000000111011111011111011111011111011111011",
+            "subjects": [
+                7,
+                8,
+                9,
+                10,
+                11
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 3,
+        "fields": {
+            "name": "5MICRO1",
+            "semester": 5,
+            "department": 1,
+            "availability": "000000000000111011111011111011111011111011111011",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 4,
+        "fields": {
+            "name": "5MICRO2",
+            "semester": 5,
+            "department": 1,
+            "availability": "000000000000101111101111101111101111101111101111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 5,
+        "fields": {
+            "name": "5ORACLE1",
+            "semester": 5,
+            "department": 1,
+            "availability": "000000000000011111011111011111011111011111011111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 6,
+        "fields": {
+            "name": "5QUICKHEAL1",
+            "semester": 5,
+            "department": 1,
+            "availability": "000000000000011111011111011111011111011111011111",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.division",
+        "pk": 7,
+        "fields": {
+            "name": "5SAP1",
+            "semester": 5,
+            "department": 1,
+            "availability": "000000000000111011111011111011111011111011111011",
+            "subjects": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 1,
+        "fields": {
+            "subject": 2,
+            "teacher": 1,
+            "score": 6,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 2,
+        "fields": {
+            "subject": 3,
+            "teacher": 1,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 3,
+        "fields": {
+            "subject": 7,
+            "teacher": 1,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 4,
+        "fields": {
+            "subject": 8,
+            "teacher": 1,
+            "score": 4,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 5,
+        "fields": {
+            "subject": 9,
+            "teacher": 1,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 6,
+        "fields": {
+            "subject": 10,
+            "teacher": 1,
+            "score": 3,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 7,
+        "fields": {
+            "subject": 11,
+            "teacher": 1,
+            "score": 5,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 8,
+        "fields": {
+            "subject": 2,
+            "teacher": 2,
+            "score": 5,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 9,
+        "fields": {
+            "subject": 3,
+            "teacher": 2,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 10,
+        "fields": {
+            "subject": 7,
+            "teacher": 2,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 11,
+        "fields": {
+            "subject": 8,
+            "teacher": 2,
+            "score": 1,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 12,
+        "fields": {
+            "subject": 9,
+            "teacher": 2,
+            "score": 4,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 13,
+        "fields": {
+            "subject": 10,
+            "teacher": 2,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 14,
+        "fields": {
+            "subject": 11,
+            "teacher": 2,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 15,
+        "fields": {
+            "subject": 5,
+            "teacher": 3,
+            "score": 6,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 16,
+        "fields": {
+            "subject": 5,
+            "teacher": 4,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 17,
+        "fields": {
+            "subject": 5,
+            "teacher": 6,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 18,
+        "fields": {
+            "subject": 2,
+            "teacher": 5,
+            "score": 4,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 19,
+        "fields": {
+            "subject": 3,
+            "teacher": 5,
+            "score": 6,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 20,
+        "fields": {
+            "subject": 7,
+            "teacher": 5,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 21,
+        "fields": {
+            "subject": 8,
+            "teacher": 5,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 22,
+        "fields": {
+            "subject": 9,
+            "teacher": 5,
+            "score": 1,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 23,
+        "fields": {
+            "subject": 10,
+            "teacher": 5,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 24,
+        "fields": {
+            "subject": 11,
+            "teacher": 5,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 25,
+        "fields": {
+            "subject": 2,
+            "teacher": 7,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 26,
+        "fields": {
+            "subject": 3,
+            "teacher": 7,
+            "score": 2,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 27,
+        "fields": {
+            "subject": 7,
+            "teacher": 7,
+            "score": 3,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 28,
+        "fields": {
+            "subject": 8,
+            "teacher": 7,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 29,
+        "fields": {
+            "subject": 9,
+            "teacher": 7,
+            "score": 5,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 30,
+        "fields": {
+            "subject": 10,
+            "teacher": 7,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 31,
+        "fields": {
+            "subject": 11,
+            "teacher": 7,
+            "score": 6,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 32,
+        "fields": {
+            "subject": 2,
+            "teacher": 8,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 33,
+        "fields": {
+            "subject": 3,
+            "teacher": 8,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 34,
+        "fields": {
+            "subject": 7,
+            "teacher": 8,
+            "score": 6,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 35,
+        "fields": {
+            "subject": 8,
+            "teacher": 8,
+            "score": 5,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 36,
+        "fields": {
+            "subject": 9,
+            "teacher": 8,
+            "score": 4,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 37,
+        "fields": {
+            "subject": 10,
+            "teacher": 8,
+            "score": 2,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 38,
+        "fields": {
+            "subject": 11,
+            "teacher": 8,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 39,
+        "fields": {
+            "subject": 2,
+            "teacher": 9,
+            "score": 5,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 40,
+        "fields": {
+            "subject": 3,
+            "teacher": 9,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 41,
+        "fields": {
+            "subject": 7,
+            "teacher": 9,
+            "score": 3,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 42,
+        "fields": {
+            "subject": 8,
+            "teacher": 9,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 43,
+        "fields": {
+            "subject": 9,
+            "teacher": 9,
+            "score": 6,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 44,
+        "fields": {
+            "subject": 10,
+            "teacher": 9,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 45,
+        "fields": {
+            "subject": 11,
+            "teacher": 9,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 46,
+        "fields": {
+            "subject": 2,
+            "teacher": 10,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 47,
+        "fields": {
+            "subject": 3,
+            "teacher": 10,
+            "score": 5,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 48,
+        "fields": {
+            "subject": 7,
+            "teacher": 10,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 49,
+        "fields": {
+            "subject": 8,
+            "teacher": 10,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 50,
+        "fields": {
+            "subject": 9,
+            "teacher": 10,
+            "score": 2,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 51,
+        "fields": {
+            "subject": 10,
+            "teacher": 10,
+            "score": 4,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 52,
+        "fields": {
+            "subject": 11,
+            "teacher": 10,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 53,
+        "fields": {
+            "subject": 1,
+            "teacher": 11,
+            "score": 10,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 54,
+        "fields": {
+            "subject": 6,
+            "teacher": 11,
+            "score": 7,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 55,
+        "fields": {
+            "subject": 1,
+            "teacher": 12,
+            "score": 4,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 56,
+        "fields": {
+            "subject": 6,
+            "teacher": 12,
+            "score": 8,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.preference",
+        "pk": 57,
+        "fields": {
+            "subject": 4,
+            "teacher": 13,
+            "score": 9,
+            "created_at": "2025-10-13T05:32:42.710Z"
+        }
+    },
+    {
+        "model": "timetable.timetable",
+        "pk": 12,
+        "fields": {
+            "created_at": "2025-10-15T13:31:17.552Z"
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1394,
+        "fields": {
+            "division": 7,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 4,
+            "time_slot": 36,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1395,
+        "fields": {
+            "division": 5,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 7,
+            "time_slot": 29,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1396,
+        "fields": {
+            "division": 3,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 6,
+            "time_slot": 19,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1397,
+        "fields": {
+            "division": 5,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 44,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1398,
+        "fields": {
+            "division": 7,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 4,
+            "time_slot": 35,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1399,
+        "fields": {
+            "division": 3,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 6,
+            "time_slot": 37,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1400,
+        "fields": {
+            "division": 4,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 5,
+            "time_slot": 34,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1401,
+        "fields": {
+            "division": 4,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 6,
+            "time_slot": 29,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1402,
+        "fields": {
+            "division": 4,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 3,
+            "time_slot": 38,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1403,
+        "fields": {
+            "division": 2,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 2,
+            "time_slot": 38,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1404,
+        "fields": {
+            "division": 3,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 40,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1405,
+        "fields": {
+            "division": 2,
+            "subject": 7,
+            "teacher": 1,
+            "classroom": 5,
+            "time_slot": 37,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1406,
+        "fields": {
+            "division": 7,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 4,
+            "time_slot": 37,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1407,
+        "fields": {
+            "division": 2,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 7,
+            "time_slot": 28,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1408,
+        "fields": {
+            "division": 7,
+            "subject": 4,
+            "teacher": 13,
+            "classroom": 4,
+            "time_slot": 31,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1409,
+        "fields": {
+            "division": 3,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 3,
+            "time_slot": 35,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1410,
+        "fields": {
+            "division": 5,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 39,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1411,
+        "fields": {
+            "division": 6,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 38,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1412,
+        "fields": {
+            "division": 1,
+            "subject": 10,
+            "teacher": 2,
+            "classroom": 3,
+            "time_slot": 34,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1413,
+        "fields": {
+            "division": 1,
+            "subject": 8,
+            "teacher": 10,
+            "classroom": 3,
+            "time_slot": 37,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1414,
+        "fields": {
+            "division": 2,
+            "subject": 10,
+            "teacher": 2,
+            "classroom": 3,
+            "time_slot": 31,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1415,
+        "fields": {
+            "division": 6,
+            "subject": 4,
+            "teacher": 13,
+            "classroom": 4,
+            "time_slot": 32,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1416,
+        "fields": {
+            "division": 2,
+            "subject": 7,
+            "teacher": 1,
+            "classroom": 2,
+            "time_slot": 34,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1417,
+        "fields": {
+            "division": 5,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 2,
+            "time_slot": 37,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1418,
+        "fields": {
+            "division": 6,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 1,
+            "time_slot": 37,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1419,
+        "fields": {
+            "division": 2,
+            "subject": 8,
+            "teacher": 9,
+            "classroom": 3,
+            "time_slot": 36,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1420,
+        "fields": {
+            "division": 2,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 7,
+            "time_slot": 26,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1421,
+        "fields": {
+            "division": 1,
+            "subject": 7,
+            "teacher": 5,
+            "classroom": 2,
+            "time_slot": 35,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1422,
+        "fields": {
+            "division": 6,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 2,
+            "time_slot": 33,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1423,
+        "fields": {
+            "division": 1,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 2,
+            "time_slot": 31,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1424,
+        "fields": {
+            "division": 5,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 3,
+            "time_slot": 27,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1425,
+        "fields": {
+            "division": 5,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 6,
+            "time_slot": 28,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1426,
+        "fields": {
+            "division": 5,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 35,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1427,
+        "fields": {
+            "division": 3,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 7,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1428,
+        "fields": {
+            "division": 1,
+            "subject": 7,
+            "teacher": 5,
+            "classroom": 3,
+            "time_slot": 32,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1429,
+        "fields": {
+            "division": 7,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 5,
+            "time_slot": 28,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1430,
+        "fields": {
+            "division": 3,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 6,
+            "time_slot": 20,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1431,
+        "fields": {
+            "division": 5,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 6,
+            "time_slot": 26,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1432,
+        "fields": {
+            "division": 3,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 2,
+            "time_slot": 36,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1433,
+        "fields": {
+            "division": 6,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 5,
+            "time_slot": 29,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1434,
+        "fields": {
+            "division": 7,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 34,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1435,
+        "fields": {
+            "division": 2,
+            "subject": 7,
+            "teacher": 1,
+            "classroom": 4,
+            "time_slot": 29,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1436,
+        "fields": {
+            "division": 4,
+            "subject": 1,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 36,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1437,
+        "fields": {
+            "division": 2,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 6,
+            "time_slot": 25,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1438,
+        "fields": {
+            "division": 6,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 4,
+            "time_slot": 28,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1439,
+        "fields": {
+            "division": 5,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 5,
+            "time_slot": 20,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1440,
+        "fields": {
+            "division": 3,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 7,
+            "time_slot": 17,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1441,
+        "fields": {
+            "division": 3,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 5,
+            "time_slot": 25,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1442,
+        "fields": {
+            "division": 7,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 4,
+            "time_slot": 25,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1443,
+        "fields": {
+            "division": 2,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 6,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1444,
+        "fields": {
+            "division": 3,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 3,
+            "time_slot": 29,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1445,
+        "fields": {
+            "division": 1,
+            "subject": 8,
+            "teacher": 10,
+            "classroom": 5,
+            "time_slot": 30,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1446,
+        "fields": {
+            "division": 6,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 2,
+            "time_slot": 27,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1447,
+        "fields": {
+            "division": 4,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 5,
+            "time_slot": 26,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1448,
+        "fields": {
+            "division": 6,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 5,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1449,
+        "fields": {
+            "division": 3,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 3,
+            "time_slot": 28,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1450,
+        "fields": {
+            "division": 6,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 6,
+            "time_slot": 17,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1451,
+        "fields": {
+            "division": 1,
+            "subject": 8,
+            "teacher": 10,
+            "classroom": 2,
+            "time_slot": 29,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1452,
+        "fields": {
+            "division": 6,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 6,
+            "time_slot": 23,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1453,
+        "fields": {
+            "division": 1,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 2,
+            "time_slot": 28,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1454,
+        "fields": {
+            "division": 1,
+            "subject": 10,
+            "teacher": 2,
+            "classroom": 4,
+            "time_slot": 26,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1455,
+        "fields": {
+            "division": 6,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 3,
+            "time_slot": 26,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1456,
+        "fields": {
+            "division": 5,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 5,
+            "time_slot": 19,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1457,
+        "fields": {
+            "division": 7,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 2,
+            "time_slot": 30,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1458,
+        "fields": {
+            "division": 5,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 3,
+            "time_slot": 25,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1459,
+        "fields": {
+            "division": 1,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 2,
+            "time_slot": 25,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1460,
+        "fields": {
+            "division": 7,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 29,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1461,
+        "fields": {
+            "division": 1,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 5,
+            "time_slot": 24,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1462,
+        "fields": {
+            "division": 4,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 28,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1463,
+        "fields": {
+            "division": 2,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 4,
+            "time_slot": 24,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1464,
+        "fields": {
+            "division": 3,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 3,
+            "time_slot": 24,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1465,
+        "fields": {
+            "division": 3,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 2,
+            "time_slot": 26,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1466,
+        "fields": {
+            "division": 2,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 5,
+            "time_slot": 23,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1467,
+        "fields": {
+            "division": 5,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 5,
+            "time_slot": 17,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1468,
+        "fields": {
+            "division": 1,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 4,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1469,
+        "fields": {
+            "division": 2,
+            "subject": 8,
+            "teacher": 9,
+            "classroom": 4,
+            "time_slot": 17,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1470,
+        "fields": {
+            "division": 1,
+            "subject": 8,
+            "teacher": 10,
+            "classroom": 4,
+            "time_slot": 20,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1471,
+        "fields": {
+            "division": 6,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 25,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1472,
+        "fields": {
+            "division": 5,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 4,
+            "time_slot": 23,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1473,
+        "fields": {
+            "division": 3,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 5,
+            "time_slot": 18,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1474,
+        "fields": {
+            "division": 3,
+            "subject": 4,
+            "teacher": 13,
+            "classroom": 7,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1475,
+        "fields": {
+            "division": 2,
+            "subject": 7,
+            "teacher": 1,
+            "classroom": 7,
+            "time_slot": 14,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1476,
+        "fields": {
+            "division": 7,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 26,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1477,
+        "fields": {
+            "division": 4,
+            "subject": 1,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 23,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1478,
+        "fields": {
+            "division": 4,
+            "subject": 1,
+            "teacher": 12,
+            "classroom": 3,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1479,
+        "fields": {
+            "division": 2,
+            "subject": 10,
+            "teacher": 2,
+            "classroom": 3,
+            "time_slot": 18,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1480,
+        "fields": {
+            "division": 6,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 3,
+            "time_slot": 20,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1481,
+        "fields": {
+            "division": 7,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 2,
+            "time_slot": 24,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1482,
+        "fields": {
+            "division": 1,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 3,
+            "time_slot": 17,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1483,
+        "fields": {
+            "division": 7,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 6,
+            "time_slot": 14,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1484,
+        "fields": {
+            "division": 5,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 2,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1485,
+        "fields": {
+            "division": 2,
+            "subject": 8,
+            "teacher": 9,
+            "classroom": 6,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1486,
+        "fields": {
+            "division": 4,
+            "subject": 1,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 27,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1487,
+        "fields": {
+            "division": 5,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 5,
+            "time_slot": 14,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1488,
+        "fields": {
+            "division": 5,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 5,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1489,
+        "fields": {
+            "division": 4,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 1,
+            "time_slot": 24,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1490,
+        "fields": {
+            "division": 7,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 22,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1491,
+        "fields": {
+            "division": 4,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 1,
+            "time_slot": 21,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1492,
+        "fields": {
+            "division": 1,
+            "subject": 7,
+            "teacher": 5,
+            "classroom": 4,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1493,
+        "fields": {
+            "division": 7,
+            "subject": 3,
+            "teacher": 2,
+            "classroom": 2,
+            "time_slot": 17,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1494,
+        "fields": {
+            "division": 5,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 3,
+            "time_slot": 15,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1495,
+        "fields": {
+            "division": 4,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 1,
+            "time_slot": 18,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1496,
+        "fields": {
+            "division": 6,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 2,
+            "time_slot": 19,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1497,
+        "fields": {
+            "division": 2,
+            "subject": 9,
+            "teacher": 1,
+            "classroom": 5,
+            "time_slot": 12,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1498,
+        "fields": {
+            "division": 6,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 3,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1499,
+        "fields": {
+            "division": 3,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 4,
+            "time_slot": 14,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1500,
+        "fields": {
+            "division": 4,
+            "subject": 1,
+            "teacher": 12,
+            "classroom": 2,
+            "time_slot": 20,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1501,
+        "fields": {
+            "division": 6,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 6,
+            "time_slot": 13,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1502,
+        "fields": {
+            "division": 5,
+            "subject": 4,
+            "teacher": 13,
+            "classroom": 5,
+            "time_slot": 13,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1503,
+        "fields": {
+            "division": 1,
+            "subject": 7,
+            "teacher": 5,
+            "classroom": 4,
+            "time_slot": 13,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1504,
+        "fields": {
+            "division": 6,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 2,
+            "time_slot": 15,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1505,
+        "fields": {
+            "division": 1,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 3,
+            "time_slot": 14,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1506,
+        "fields": {
+            "division": 6,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 2,
+            "time_slot": 14,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1507,
+        "fields": {
+            "division": 2,
+            "subject": 8,
+            "teacher": 9,
+            "classroom": 3,
+            "time_slot": 13,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1508,
+        "fields": {
+            "division": 7,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 1,
+            "time_slot": 20,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1509,
+        "fields": {
+            "division": 4,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 1,
+            "time_slot": 17,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1510,
+        "fields": {
+            "division": 3,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 2,
+            "time_slot": 13,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1511,
+        "fields": {
+            "division": 7,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 2,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1512,
+        "fields": {
+            "division": 1,
+            "subject": 11,
+            "teacher": 9,
+            "classroom": 4,
+            "time_slot": 12,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1513,
+        "fields": {
+            "division": 4,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 1,
+            "time_slot": 16,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1514,
+        "fields": {
+            "division": 4,
+            "subject": 4,
+            "teacher": 13,
+            "classroom": 1,
+            "time_slot": 15,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1515,
+        "fields": {
+            "division": 7,
+            "subject": 1,
+            "teacher": 11,
+            "classroom": 1,
+            "time_slot": 13,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1516,
+        "fields": {
+            "division": 4,
+            "subject": 2,
+            "teacher": 7,
+            "classroom": 1,
+            "time_slot": 14,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1517,
+        "fields": {
+            "division": 4,
+            "subject": 3,
+            "teacher": 8,
+            "classroom": 3,
+            "time_slot": 12,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1518,
+        "fields": {
+            "division": 7,
+            "subject": 6,
+            "teacher": 12,
+            "classroom": 2,
+            "time_slot": 12,
+            "session_type": "Lab",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "timetable.timetableentry",
+        "pk": 1519,
+        "fields": {
+            "division": 3,
+            "subject": 5,
+            "teacher": 4,
+            "classroom": 1,
+            "time_slot": 12,
+            "session_type": "Lecture",
+            "generated": true,
+            "timetable": 12
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "admin@gmail.com",
+            "full_name": "admin",
+            "gender": "Male",
+            "phone_number": "+919316234654",
+            "role": "Admin",
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "date_joined": "2025-10-11T02:31:36.596Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "vikash@gmail.com",
+            "full_name": "Vikash",
+            "gender": "Male",
+            "phone_number": "+919301234567",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "chandrashekhar@gmail.com",
+            "full_name": "Chndrashekhar",
+            "gender": "Male",
+            "phone_number": "+919302345678",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "yash@gmail.com",
+            "full_name": "Yash",
+            "gender": "Male",
+            "phone_number": "+919303456789",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "bumika@gmail.com",
+            "full_name": "Bumika",
+            "gender": "Female",
+            "phone_number": "+919304567890",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "akruti@gmail.com",
+            "full_name": "Akruti",
+            "gender": "Female",
+            "phone_number": "+919305678901",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "raj@gmail.com",
+            "full_name": "Raj",
+            "gender": "Male",
+            "phone_number": "+919306789012",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "ekanyappan@gmail.com",
+            "full_name": "E Kanyappan",
+            "gender": "Male",
+            "phone_number": "+919307890123",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "sudhenduprince@gmail.com",
+            "full_name": "Sudhendu Prince",
+            "gender": "Male",
+            "phone_number": "+919308901234",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "anushamarada@gmail.com",
+            "full_name": "Anusha Marada",
+            "gender": "Female",
+            "phone_number": "+919309012345",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 11,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "abhirupsinha@gmail.com",
+            "full_name": "Abhirup Sinha",
+            "gender": "Male",
+            "phone_number": "+919310123456",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 12,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "trainer1@gmail.com",
+            "full_name": "Trainer 1",
+            "gender": "Male",
+            "phone_number": "+919311111111",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 13,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "trainer2@gmail.com",
+            "full_name": "Trainer 2",
+            "gender": "Male",
+            "phone_number": "+919322222222",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 14,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$pmGk7XSAZvamgFK1mxNygL$wu3ExxyZ7FDxPiT+6vCqw23VcIT9SjJzmTmn9wPWRUo=",
+            "email": "cdc_trainer1@gmail.com",
+            "full_name": "CDC_Trainer1",
+            "gender": "Male",
+            "phone_number": "+919333333333",
+            "role": "Teacher",
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "date_joined": "2025-10-13T00:00:00Z",
+            "last_login": "2025-10-13T05:09:21.546Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]

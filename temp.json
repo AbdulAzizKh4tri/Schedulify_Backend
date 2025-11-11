@@ -1,0 +1,145 @@
+[
+    {
+        "model": "timetable.teacher",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "staff_id": "Viki101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "staff_id": "Chndra101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 3,
+        "fields": {
+            "user": 4,
+            "staff_id": "Yash101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 4,
+        "fields": {
+            "user": 5,
+            "staff_id": "Bumika101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 5,
+        "fields": {
+            "user": 6,
+            "staff_id": "Akruti101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 6,
+        "fields": {
+            "user": 7,
+            "staff_id": "Raj101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 2,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 7,
+        "fields": {
+            "user": 8,
+            "staff_id": "Kanya101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 8,
+        "fields": {
+            "user": 9,
+            "staff_id": "Prince101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 9,
+        "fields": {
+            "user": 10,
+            "staff_id": "Anusha101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 10,
+        "fields": {
+            "user": 11,
+            "staff_id": "Abhirup101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 1,
+            "max_workload": 18
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 11,
+        "fields": {
+            "user": 12,
+            "staff_id": "Trainer101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 30
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 12,
+        "fields": {
+            "user": 13,
+            "staff_id": "Trainer201",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 3,
+            "max_workload": 30
+        }
+    },
+    {
+        "model": "timetable.teacher",
+        "pk": 13,
+        "fields": {
+            "user": 14,
+            "staff_id": "CDCTrainer101",
+            "availability": "000000000000111111111111111111111111111111111111",
+            "department": 4,
+            "max_workload": 18
+        }
+    }
+]
