@@ -1,8 +1,9 @@
-from django.db.models import Sum, Count
 from django.core.exceptions import ValidationError
 import copy
 import random
 import pandas as pd
+import time
+from django.db import IntegrityError, transaction
 
 from .models import TIME_SLOTS
 
@@ -53,7 +54,7 @@ def same_subject_in_day_exists(division_id, subject_id, slot, session_type, curr
     return False
 
 iterations = 0
-def try_allocate(assignment_index, assignments, teachers, classrooms, divisions, current_allocations):
+def try_allocate(assignment_index, assignments, teachers, classrooms, divisions, current_allocations,start_time, timeout):
         """Recursive backtracking allocation."""
 
         global iterations
@@ -61,6 +62,8 @@ def try_allocate(assignment_index, assignments, teachers, classrooms, divisions,
             print(f"Iterations: {iterations}, Current allocations: {len(current_allocations)}/{len(assignments)}")
         iterations += 1
 
+        if timeout and (time.time() - start_time) > timeout:
+            raise TimeoutError("Timetable generation timed out")
 
         if assignment_index == len(assignments):
             return []  # success, no more to assign
@@ -108,7 +111,7 @@ def try_allocate(assignment_index, assignments, teachers, classrooms, divisions,
 
             # Continue with next assignment
             result = try_allocate(assignment_index + 1, assignments, teachers, classrooms, divisions, 
-                                    current_allocations + [(teacher_id, subject_id, division_id, slot, room_id, session_type)])
+                                    current_allocations + [(teacher_id, subject_id, division_id, slot, room_id, session_type)], start_time, timeout)
             if result is not None:  # success
                 return result + [(teacher_id, subject_id, division_id, slot, room_id, session_type)]
 
@@ -125,12 +128,16 @@ def try_allocate(assignment_index, assignments, teachers, classrooms, divisions,
 
 
 
-def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
+def generate_timetable(timeout=5000, teacher_ids=None, classroom_ids=None, division_ids=None):
     """Generate a timetable maximizing teacher preferences and balancing workload."""
     from .models import Division, Subject, Teacher, ClassRoom, Preference, Timetable,TimetableEntry, TIME_SLOTS, MAXIMUM_WORK_LOAD
     from .utils import get_teacher_subject_division_mapping
     
-    
+    start_time = time.time()
+
+    def check_timeout():
+        if timeout and (time.time() - start_time) > timeout:
+            raise TimeoutError("Timetable generation timed out.")
 
 
     teachers = get_modifiable_entity_array(Teacher,teacher_ids)
@@ -149,27 +156,32 @@ def generate_timetable(teacher_ids=None, classroom_ids=None, division_ids=None):
     
     random.shuffle(assignments)
 
-    allocations = try_allocate(0, assignments, teachers, classrooms, divisions, [])
+    allocations = try_allocate(0, assignments, teachers, classrooms, divisions, [],start_time, timeout)
 
     if allocations is None:
         print("No full timetable possible")
         return None
 
 
-    Timetable.objects.all().delete()
-    new_timetable = Timetable.objects.create()
-    timetable_entries = [
-        TimetableEntry(
-            teacher_id=t_id,
-            subject_id=s_id,
-            division_id=d_id,
-            classroom_id=r_id,
-            time_slot=slot,
-            session_type = session_type,
-            timetable_id = new_timetable.id
-        )
-        for t_id, s_id, d_id, slot, r_id, session_type in allocations
-    ]
+    try:
+        with transaction.atomic():
 
-    TimetableEntry.objects.bulk_create(timetable_entries)
+            new_timetable = Timetable.objects.create()
+            timetable_entries = [
+                TimetableEntry(
+                    teacher_id=t_id,
+                    subject_id=s_id,
+                    division_id=d_id,
+                    classroom_id=r_id,
+                    time_slot=slot,
+                    session_type=session_type,
+                    timetable_id=new_timetable.id
+                )
+                for t_id, s_id, d_id, slot, r_id, session_type in allocations
+            ]
+            TimetableEntry.objects.bulk_create(timetable_entries)
+
+    except IntegrityError as e:
+        raise
+        
     return LP_output

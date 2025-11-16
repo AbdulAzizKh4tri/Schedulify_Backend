@@ -34,7 +34,7 @@ class Subject(models.Model):
 
 class Teacher(models.Model):
     user = models.OneToOneField(
-        User, on_delete=models.CASCADE, related_name="teacher_profile"
+        User, on_delete=models.SET_NULL, related_name="teacher_profile",null=True,blank=True
     )
     staff_id = models.CharField(max_length=20)
     availability = models.CharField(max_length=TIME_SLOTS, default=SHIFT_2)
@@ -77,16 +77,26 @@ class Preference(models.Model):
     )
     score = models.PositiveSmallIntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return str(self.subject) + " " + str(self.teacher) + " " + str(self.score)
 
     class Meta:
-        ordering = ("score",)
+        ordering = ("-score",)
 
 
 class Timetable(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def serialize(self):
+        return {
+            "id": self.id,
+            "created_at": self.created_at,
+        }
+    
+    class Meta:
+        ordering = ("-created_at",)
 
 
 class TimetableEntry(models.Model):
@@ -108,7 +118,7 @@ class TimetableEntry(models.Model):
 
     class Meta:
         unique_together = [
-            ("division", "time_slot"),
-            ("teacher", "time_slot"),
-            ("classroom", "time_slot"),
+            ("division", "time_slot","timetable"),
+            ("teacher", "time_slot","timetable"),
+            ("classroom", "time_slot","timetable"),
         ]

@@ -13,7 +13,7 @@ class IsOwnerOrReadOnly(BasePermission):
 
 class IsSelfOrReadOnly(BasePermission):
     def has_object_permission(self, request, view, obj):
-        return request.user.is_authenticated and bool(request.method in SAFE_METHODS or obj.user == request.user)
+        return request.user.role==get_user_model().ADMIN or request.user.is_authenticated and bool(request.method in SAFE_METHODS or obj.user == request.user)
     
 class ReadOnly(BasePermission):
     def has_object_permission(self, request, view, obj):

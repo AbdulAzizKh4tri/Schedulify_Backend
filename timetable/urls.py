@@ -13,8 +13,8 @@ router.register(r'timetables', views.TimetableViewSet)
 
 
 urlpatterns = [
+    path("summary/", views.summary),
     path("generate/", views.generate),
-    path("show/<int:ttid>/<str:division>", views.show),
+    path("teacher_mappings/", views.teacher_mappings),
     path('', include(router.urls)),
-
 ]
