@@ -294,7 +294,7 @@ def teacher_mappings(request):
     except Timetable.DoesNotExist:
         return Response({"detail": "Timetable not found"}, status=404)
 
-    # 1️⃣ Get unique entries per (teacher, subject, division)
+    # Get unique entries per (teacher, subject, division)
     subquery = (
         TimetableEntry.objects.filter(timetable=timetable)
         .values("teacher_id", "subject_id", "division_id")
@@ -304,7 +304,7 @@ def teacher_mappings(request):
         id__in=[e["entry_id"] for e in subquery]
     ).select_related("teacher", "subject", "division")
 
-    # 2️⃣ Build teacher map
+    # Build teacher map
     teachers_map = {}
     for e in entries:
         t_id = e.teacher.id
@@ -342,7 +342,7 @@ def teacher_mappings(request):
 
         teacher["subjects"][s_id]["divisions"].append(e.division.name if e.division else "-")
 
-    # 3️⃣ Calculate satisfaction per teacher
+    # Calculate satisfaction per teacher
     for t in teachers_map.values():
         total_score = 0
         max_score = 0
@@ -354,13 +354,13 @@ def teacher_mappings(request):
 
         t["satisfaction"] = (total_score / max_score) if max_score > 0 else 0
 
-    # 4️⃣ Overall satisfaction = mean across all teachers
+    # Overall satisfaction = mean across all teachers
     overall_satisfaction = (
         sum(t["satisfaction"] for t in teachers_map.values()) / len(teachers_map)
         if teachers_map else 0
     )
 
-    # 5️⃣ Format subjects as list for frontend
+    # Format subjects as list for frontend
     teachers_list = [
         {**t, "subjects": list(t["subjects"].values())} for t in teachers_map.values()
     ]
