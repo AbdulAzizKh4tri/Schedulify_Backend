@@ -38,4 +38,4 @@ if reset_flag:
         subprocess.run([python_exe, "manage.py", "loaddata", fixture_file], check=True)
 
 # Step 4: Run development server
-subprocess.run([python_exe, "manage.py", "runserver"], check=True)
+subprocess.run([python_exe, "manage.py", "runserver", "0.0.0.0:8000"], check=True)
