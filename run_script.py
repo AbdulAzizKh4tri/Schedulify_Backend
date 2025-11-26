@@ -12,6 +12,7 @@ no_venv = "--novenv" in sys.argv
 no_req = "--noreq" in sys.argv
 
 # Step 0: Create virtual environment if it doesn't exist
+python_exe = "python"
 if not no_venv:
     if not os.path.exists(venv_dir):
         print("Creating virtual environment...")
@@ -22,6 +23,7 @@ if not no_venv:
         python_exe = os.path.join(venv_dir, "Scripts", "python.exe")
     else:  # macOS/Linux
         python_exe = os.path.join(venv_dir, "bin", "python")
+
 
 # Step 0b: Install requirements
 if not no_req:
