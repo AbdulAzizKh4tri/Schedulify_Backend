@@ -5,7 +5,8 @@ import pandas as pd
 import time
 from django.db import IntegrityError, transaction
 
-from .models import TIME_SLOTS
+from .models import Division, Subject, Teacher, ClassRoom, Preference, Timetable,TimetableEntry, TIME_SLOTS, MAXIMUM_WORK_LOAD
+from .utils import get_teacher_subject_division_mapping
 
 # Set up logginglogging.basicConfig(level=logging.INFO)
 
@@ -130,14 +131,8 @@ def try_allocate(assignment_index, assignments, teachers, classrooms, divisions,
 
 def generate_timetable(timeout=5000, teacher_ids=None, classroom_ids=None, division_ids=None):
     """Generate a timetable maximizing teacher preferences and balancing workload."""
-    from .models import Division, Subject, Teacher, ClassRoom, Preference, Timetable,TimetableEntry, TIME_SLOTS, MAXIMUM_WORK_LOAD
-    from .utils import get_teacher_subject_division_mapping
     
     start_time = time.time()
-
-    def check_timeout():
-        if timeout and (time.time() - start_time) > timeout:
-            raise TimeoutError("Timetable generation timed out.")
 
 
     teachers = get_modifiable_entity_array(Teacher,teacher_ids)

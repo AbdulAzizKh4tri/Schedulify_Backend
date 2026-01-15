@@ -1,12 +1,11 @@
 from django.http import JsonResponse
-from django.shortcuts import render
 from rest_framework import viewsets, status
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.db import transaction
-from django.db.models import Max, Prefetch, Min, Sum
+from django.db.models import Max, Prefetch, Min
 from django.db.models import Count
 from rest_framework.decorators import api_view
 from django.utils import timezone
@@ -19,13 +18,23 @@ from users.serializers import UserLiteSerializer
 from .timetablegenerator import generate_timetable
 from .permissions import IsAdmin, IsOwnerOrReadOnly, IsSelfOrReadOnly, ReadOnly
 from .models import (
-    ClassRoom, Department, Division, Preference,
-    Subject, Teacher, Timetable, TimetableEntry
+    ClassRoom,
+    Department,
+    Division,
+    Preference,
+    Subject,
+    Teacher,
+    Timetable,
+    TimetableEntry,
 )
 from .serializers import (
-    ClassRoomSerializer, DepartmentSerializer, DivisionSerializer,
-    PreferenceSerializer, SubjectSerializer, TeacherSerializer,
-    TimetableSerializer
+    ClassRoomSerializer,
+    DepartmentSerializer,
+    DivisionSerializer,
+    PreferenceSerializer,
+    SubjectSerializer,
+    TeacherSerializer,
+    TimetableSerializer,
 )
 
 from .mixins import CSVUploadMixin
@@ -65,7 +74,7 @@ class DivisionViewSet(CSVUploadMixin, viewsets.ModelViewSet):
     csv_serializer = DivisionSerializer
 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['semester', 'department']
+    filterset_fields = ["semester", "department"]
 
     def get_permissions(self):
         if self.action in ["update", "destroy", "create", "csv_upload"]:
@@ -81,7 +90,7 @@ class SubjectViewSet(CSVUploadMixin, viewsets.ModelViewSet):
     csv_serializer = SubjectSerializer
 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['department']
+    filterset_fields = ["department"]
 
     def get_permissions(self):
         if self.action in ["update", "destroy", "create", "csv_upload"]:
@@ -96,38 +105,46 @@ class TeacherViewSet(CSVUploadMixin, viewsets.ModelViewSet):
     csv_key = "teachers"
     csv_serializer = TeacherSerializer
 
-    @action(detail=False, methods=['get'])
+    @action(detail=False, methods=["get"])
     def users(self, request):
         users = User.objects.filter(role=User.TEACHER, teacher_profile__isnull=True)
         return Response({"users": UserLiteSerializer(users, many=True).data})
-    
-    @action(detail=False, methods=['get'])
+
+    @action(detail=False, methods=["get"])
     def preferences(self, request):
         """
         Returns teachers along with all their preferences, sorted by last preference update.
         """
         # Annotate teachers with the latest preference update
-        teachers = Teacher.objects.annotate(
-            last_pref_update=Max("teacher_preferences__updated_at")
-        ).prefetch_related(
-            Prefetch(
-                "teacher_preferences",
-                queryset=Preference.objects.select_related("subject").order_by("-score"),
-                to_attr="all_preferences"
+        teachers = (
+            Teacher.objects.annotate(
+                last_pref_update=Max("teacher_preferences__updated_at")
             )
-        ).order_by("-last_pref_update")
+            .prefetch_related(
+                Prefetch(
+                    "teacher_preferences",
+                    queryset=Preference.objects.select_related("subject").order_by(
+                        "-score"
+                    ),
+                    to_attr="all_preferences",
+                )
+            )
+            .order_by("-last_pref_update")
+        )
 
         data = []
         for t in teachers:
             serializer = PreferenceSerializer(t.all_preferences, many=True)
-            data.append({
-                "id": t.id,
-                "staff_id": t.staff_id,
-                "name": t.user.full_name if t.user else None,
-                "department": t.department.name if t.department else None,
-                "preferences": serializer.data,
-                "last_pref_update": t.last_pref_update
-            })
+            data.append(
+                {
+                    "id": t.id,
+                    "staff_id": t.staff_id,
+                    "name": t.user.full_name if t.user else None,
+                    "department": t.department.name if t.department else None,
+                    "preferences": serializer.data,
+                    "last_pref_update": t.last_pref_update,
+                }
+            )
 
         return Response(data)
 
@@ -139,7 +156,7 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
     queryset = Preference.objects.all()
     serializer_class = PreferenceSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['teacher', 'subject']
+    filterset_fields = ["teacher", "subject"]
 
     csv_key = "preferences"
     csv_serializer = PreferenceSerializer
@@ -147,7 +164,7 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
     def get_permissions(self):
         return [IsOwnerOrReadOnly()]
 
-    @action(detail=False, methods=['post'])
+    @action(detail=False, methods=["post"])
     def bulk_update(self, request):
         teacher_id = request.data.get("teacher_id")
         prefs_dict = request.data.get("preferences")
@@ -155,7 +172,7 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
         if not teacher_id or not isinstance(prefs_dict, dict):
             return Response(
                 {"detail": "teacher_id and preferences{} required"},
-                status=status.HTTP_400_BAD_REQUEST
+                status=status.HTTP_400_BAD_REQUEST,
             )
 
         try:
@@ -178,13 +195,11 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
         missing = set(subject_ids) - subjects
         if missing:
             return Response(
-                {"detail": f"Invalid subject ids: {list(missing)}"},
-                status=400
+                {"detail": f"Invalid subject ids: {list(missing)}"}, status=400
             )
 
         existing_qs = Preference.objects.filter(
-            teacher=teacher,
-            subject_id__in=subject_ids
+            teacher=teacher, subject_id__in=subject_ids
         )
         existing_map = {p.subject_id: p for p in existing_qs}
 
@@ -194,8 +209,10 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
         for subject_id, score in prefs.items():
             if not (1 <= score <= 10):
                 return Response(
-                    {"detail": f"Invalid score {score} for subject {subject_id}. Must be 1-10."},
-                    status=400
+                    {
+                        "detail": f"Invalid score {score} for subject {subject_id}. Must be 1-10."
+                    },
+                    status=400,
                 )
 
             if subject_id in existing_map:
@@ -204,11 +221,7 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
                 to_update.append(pref_obj)
             else:
                 to_create.append(
-                    Preference(
-                        teacher=teacher,
-                        subject_id=subject_id,
-                        score=score
-                    )
+                    Preference(teacher=teacher, subject_id=subject_id, score=score)
                 )
 
         with transaction.atomic():
@@ -219,7 +232,6 @@ class PreferenceViewSet(CSVUploadMixin, viewsets.ModelViewSet):
             if to_create:
                 Preference.objects.bulk_create(to_create)
 
-
         return Response({"detail": "Preferences updated successfully"})
 
 
@@ -227,7 +239,7 @@ class TimetableViewSet(viewsets.ModelViewSet):
     queryset = Timetable.objects.all()
     serializer_class = TimetableSerializer
 
-    @action(detail=False, methods=['get'])
+    @action(detail=False, methods=["get"])
     def list_timetables(self, request):
         timetables = Timetable.objects.all()
         return JsonResponse({"timetables": [tt.serialize() for tt in timetables]})
@@ -239,7 +251,7 @@ class TimetableViewSet(viewsets.ModelViewSet):
 # -------------------------
 # Standalone endpoints
 # -------------------------
-@api_view(['GET'])
+@api_view(["GET"])
 def generate(request):
     timeout = request.GET.get("timeout")  # in seconds
     timeout = int(timeout) if timeout else None
@@ -249,23 +261,26 @@ def generate(request):
     except TimeoutError as e:
         return JsonResponse({"message": str(e)}, status=408)
     except Exception as e:
-        return JsonResponse({"message": "Unable to generate timetable: " + str(e)}, status=500)
+        return JsonResponse(
+            {"message": "Unable to generate timetable: " + str(e)}, status=500
+        )
 
     return JsonResponse({"data": LP_output})
 
-@api_view(['GET'])
+
+@api_view(["GET"])
 def summary(request):
     """Return dashboard summary"""
     # Departments summary
     departments = Department.objects.annotate(
         num_teachers=Count("teachers", distinct=True),
-        num_subjects=Count("subjects", distinct=True)
+        num_subjects=Count("subjects", distinct=True),
     ).values("id", "name", "num_teachers", "num_subjects")
 
     # Subjects summary
     subjects = Subject.objects.annotate(
         num_teachers=Count("subject_preferences__teacher", distinct=True),
-        num_divisions=Count("division", distinct=True)
+        num_divisions=Count("division", distinct=True),
     ).values("id", "name", "num_teachers", "num_divisions")
 
     # Total counts
@@ -277,11 +292,10 @@ def summary(request):
         "divisions": Division.objects.count(),
     }
 
-    return JsonResponse({
-        "departments": list(departments),
-        "subjects": list(subjects),
-        "total": total
-    })
+    return JsonResponse(
+        {"departments": list(departments), "subjects": list(subjects), "total": total}
+    )
+
 
 @api_view(["GET"])
 def teacher_mappings(request):
@@ -315,11 +329,13 @@ def teacher_mappings(request):
                 "teacher_id": t_id,
                 "teacher_name": e.teacher.user.full_name,
                 "staff_id": getattr(e.teacher, "staff_id", "-"),
-                "department": getattr(e.teacher.department, "name", "-") if e.teacher.department else "-",
+                "department": getattr(e.teacher.department, "name", "-")
+                if e.teacher.department
+                else "-",
                 "subjects": {},
                 "used_workload": 0,
                 "max_workload": getattr(e.teacher, "max_workload", 0),
-                "satisfaction": 0
+                "satisfaction": 0,
             }
 
         teacher = teachers_map[t_id]
@@ -337,10 +353,12 @@ def teacher_mappings(request):
             teacher["subjects"][s_id] = {
                 "subject": e.subject.name,
                 "divisions": [],
-                "score_per_division": score
+                "score_per_division": score,
             }
 
-        teacher["subjects"][s_id]["divisions"].append(e.division.name if e.division else "-")
+        teacher["subjects"][s_id]["divisions"].append(
+            e.division.name if e.division else "-"
+        )
 
     # Calculate satisfaction per teacher
     for t in teachers_map.values():
@@ -357,7 +375,8 @@ def teacher_mappings(request):
     # Overall satisfaction = mean across all teachers
     overall_satisfaction = (
         sum(t["satisfaction"] for t in teachers_map.values()) / len(teachers_map)
-        if teachers_map else 0
+        if teachers_map
+        else 0
     )
 
     # Format subjects as list for frontend
@@ -365,7 +384,6 @@ def teacher_mappings(request):
         {**t, "subjects": list(t["subjects"].values())} for t in teachers_map.values()
     ]
 
-    return Response({
-        "overall_satisfaction": overall_satisfaction,
-        "teachers": teachers_list
-    })
+    return Response(
+        {"overall_satisfaction": overall_satisfaction, "teachers": teachers_list}
+    )
